@@ -2,14 +2,14 @@
   "id": "crawler",
   "kind": "enemy",
   "folder": "ai/enemies/crawler",
-  "step": 5,
+  "step": 6,
   "steps": {
     "1": "done",
     "2": "skipped",
     "3": "skipped",
     "4": "done",
-    "5": "waiting: GLB from Tripo (best of 3 tries) + Tripo model version and plan",
-    "6": "todo",
+    "5": "done",
+    "6": "waiting: keep this Tripo model, or regenerate (back to step 5)",
     "7": "todo",
     "8": "todo",
     "9": "todo"
@@ -23,17 +23,17 @@
     "concept": null,
     "sheet": null,
     "views": "work/views",
-    "glb": null
+    "glb": "work/crawler.glb"
   },
   "options": {
     "front": null,
     "rot": null,
-    "glow": null,
+    "glow": 0,
     "legs": "split"
   },
   "tools": [
-    "ChatGPT images (plan: not told yet)",
-    "Tripo H3.1, HD Model, 2K PBR, remove lighting, triangle 15000 (plan: not told yet)"
+    "ChatGPT images (paid plan, tier not named)",
+    "Tripo H3.1, HD Model, 2K PBR, remove lighting, triangle 15000 (paid plan, tier not named)"
   ],
   "notes": [
     "2026-10-01 brief given; Mo skipped ahead and uploaded four ChatGPT single views (no concept image sent): steps 2-3 skipped",
@@ -42,7 +42,10 @@
     "design differs from the brief: armoured hermit-crab/pill-bug with painted orange plates, not a mite with a glowing back sac",
     "2026-10-01 Mo said 'go' after the views sheet: head directions and BACK view accepted by eye; continuing without the golden palette (no golden set yet); ChatGPT plan still not told",
     "2026-10-01 Tripo settings and the four views given",
-    "2026-10-01 Tripo try 1 judged from screenshots (front, rear 3/4, left): reads well, clean texture, legs separate, no base, BACK cone became a tucked tail spike; GLB not uploaded yet. Plan: check it in the step 6 quick check before spending more Tripo credits"
+    "2026-10-01 Tripo try 1 judged from screenshots (front, rear 3/4, left): reads well, clean texture, legs separate, no base, BACK cone became a tucked tail spike; GLB not uploaded yet. Plan: check it in the step 6 quick check before spending more Tripo credits",
+    "2026-10-01 GLB received (pushed from Mo's PC as 'armored crab 3d model.glb', 4.4 MB), moved to work/crawler.glb. Mo: both ChatGPT and Tripo plans are paid (tiers not named)",
+    "2026-10-01 quick check PASS: contrast dL* 25.8-35.0 on the 4 grounds, fill 0.70. Facing correct with no --front/--rot (dir 0 head right, dir 2 head toward camera). Weak points: head hidden under the dome at the 57 deg camera; orange accent muted by the house look",
+    "2026-10-01 glow tested at 0.3 and 0.5: lights up the cream/peach shell texels (blotchy), not the orange plates. Keep glow 0"
   ],
-  "updated": "2026-10-01T10:51:18Z"
+  "updated": "2026-10-01T11:04:54Z"
 }
