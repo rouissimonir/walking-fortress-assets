@@ -2,7 +2,7 @@
   "id": "crawler",
   "kind": "enemy",
   "folder": "ai/enemies/crawler",
-  "step": 8,
+  "step": 9,
   "steps": {
     "1": "done",
     "2": "skipped",
@@ -11,8 +11,8 @@
     "5": "done",
     "6": "done",
     "7": "done",
-    "8": "todo",
-    "9": "todo"
+    "8": "done",
+    "9": "waiting: Mo judges the art run (sheet, GIF, bestiary stills): keep or redo"
   },
   "brief": {
     "size": "S",
@@ -46,7 +46,8 @@
     "2026-10-01 GLB received (pushed from Mo's PC as 'armored crab 3d model.glb', 4.4 MB), moved to work/crawler.glb. Mo: both ChatGPT and Tripo plans are paid (tiers not named)",
     "2026-10-01 quick check PASS: contrast dL* 25.8-35.0 on the 4 grounds, fill 0.70. Facing correct with no --front/--rot (dir 0 head right, dir 2 head toward camera). Weak points: head hidden under the dome at the 57 deg camera; orange accent muted by the house look",
     "2026-10-01 glow tested at 0.3 and 0.5: lights up the cream/peach shell texels (blotchy), not the orange plates. Keep glow 0",
-    "2026-10-01 Mo: keep. asset.json written (glow 0, legs split, no front/rot) and copied crawler.glb + views/ next to it. No concept.png (never uploaded)"
+    "2026-10-01 Mo: keep. asset.json written (glow 0, legs split, no front/rot) and copied crawler.glb + views/ next to it. No concept.png (never uploaded)",
+    "2026-10-01 art run PASS (contrast dL* 27-37, fill 0.75, hitbox 1.41x, walk drift 0.49 px, legs found 4, atlas 2048x512). Art files in the game repo working tree, not committed yet (step 9 commits after Mo's keep)"
   ],
-  "updated": "2026-10-01T11:10:47Z"
+  "updated": "2026-10-01T11:21:12Z"
 }
