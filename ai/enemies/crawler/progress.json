@@ -1,0 +1,44 @@
+{
+  "id": "crawler",
+  "kind": "enemy",
+  "folder": "ai/enemies/crawler",
+  "step": 4,
+  "steps": {
+    "1": "done",
+    "2": "skipped",
+    "3": "skipped",
+    "4": "waiting: eye-check of the views (head directions, back view) + go",
+    "5": "todo",
+    "6": "todo",
+    "7": "todo",
+    "8": "todo",
+    "9": "todo"
+  },
+  "brief": {
+    "size": "S",
+    "radius": 11,
+    "accent": "#ff9a3a"
+  },
+  "files": {
+    "concept": null,
+    "sheet": null,
+    "views": "work/views",
+    "glb": null
+  },
+  "options": {
+    "front": null,
+    "rot": null,
+    "glow": null,
+    "legs": "split"
+  },
+  "tools": [
+    "ChatGPT images (plan: not told yet)"
+  ],
+  "notes": [
+    "2026-10-01 brief given; Mo skipped ahead and uploaded four ChatGPT single views (no concept image sent): steps 2-3 skipped",
+    "2026-10-01 views read as 1=RIGHT 2=LEFT 3=BACK 4=FRONT; prep-views PASS (front/back 95%, left/right 96%), no golden palette (assets repo has no golden set)",
+    "2026-10-01 phone-size contrast PASS on left+front (dL* 34-43, fill 0.62)",
+    "design differs from the brief: armoured hermit-crab/pill-bug with painted orange plates, not a mite with a glowing back sac"
+  ],
+  "updated": "2026-10-01T10:23:23Z"
+}

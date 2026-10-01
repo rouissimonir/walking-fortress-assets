@@ -1,0 +1,29 @@
+{
+ "front": [
+  {
+   "check": "contrast plains",
+   "value": "\u0394L* 34.1",
+   "level": "PASS"
+  },
+  {
+   "check": "contrast swamp",
+   "value": "\u0394L* 35.9",
+   "level": "PASS"
+  },
+  {
+   "check": "contrast ruins",
+   "value": "\u0394L* 40.8",
+   "level": "PASS"
+  },
+  {
+   "check": "contrast crater",
+   "value": "\u0394L* 43.3",
+   "level": "PASS"
+  },
+  {
+   "check": "fill",
+   "value": "0.62",
+   "level": "PASS"
+  }
+ ]
+}

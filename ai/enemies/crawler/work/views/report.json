@@ -1,0 +1,43 @@
+{
+ "verdict": "PASS",
+ "hint": "ready for Tripo",
+ "views": {
+  "front": {
+   "width": 399,
+   "height": 342,
+   "aspect": 1.167,
+   "colourShift": 0.0
+  },
+  "left": {
+   "width": 394,
+   "height": 340,
+   "aspect": 1.159,
+   "colourShift": 1.896
+  },
+  "back": {
+   "width": 399,
+   "height": 342,
+   "aspect": 1.167,
+   "colourShift": 1.198
+  },
+  "right": {
+   "width": 389,
+   "height": 340,
+   "aspect": 1.144,
+   "colourShift": 1.503
+  }
+ },
+ "checks": [
+  {
+   "view": "front/back",
+   "level": "PASS",
+   "note": "mirrored silhouettes overlap 95% (want 75%+), aspect differs 0%"
+  },
+  {
+   "view": "left/right",
+   "level": "PASS",
+   "note": "mirrored silhouettes overlap 96% (want 75%+), aspect differs 1%"
+  }
+ ],
+ "palette": null
+}

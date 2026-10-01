@@ -1,0 +1,23 @@
+{
+  "id": "crawler",
+  "name": "Crawler",
+  "kind": "enemy",
+  "size": "S",
+  "legs": "6",
+  "accent": "orange #ff9a3a glowing back sac",
+  "accentHex": "#ff9a3a",
+  "readsAs": "the fodder you crush by hundreds",
+  "creature": "a small squat alien mite with a round armoured back and short spiky legs",
+  "radius": 11,
+  "sprite": 128,
+  "prompts": {
+    "concept": "Concept art for Crawler, a small creature in our game: a small squat alien mite with a round armoured back and short spiky legs. Dark sci-fi alien bio-mechanical, hand-painted look with big simple shapes and few large details. One glowing accent only: orange #ff9a3a glowing back sac; everything else in a calm organic palette, lighter than a dark ground. 6 legs, thick enough to read at phone size, spread wide with clear gaps between them. It must read at a glance as: the fodder you crush by hundreds. Three-quarter top-down view from above, full body in frame, centred, filling about 80% of the image, plain flat neutral grey background, soft even light from the top left, no cast shadow, no text. Square image.",
+    "sheet": "Attached: the approved concept of Crawler and the blank turnaround template card. Draw exactly this creature (same design, colours, proportions, leg count and accent: orange #ff9a3a glowing back sac) once in each of the four slots of the card: FRONT (facing the viewer), LEFT (its left side, head pointing left), BACK (its back), RIGHT (its right side, head pointing right). Orthographic views, camera level with the creature, no perspective. 6 legs, thick enough to read at phone size, spread wide with clear gaps between them. Stand the feet on each slot's ground line, let the top of the body reach the height marker, centre each view in its slot, and use the same scale in every slot. Keep the card's grey, frames, labels and lines exactly as they are; draw nothing outside the slots; no cast shadows. Square image.",
+    "views": {
+      "front": "Attached: the approved concept of Crawler. Draw exactly this creature again (same design, colours, proportions, leg count and accent: orange #ff9a3a glowing back sac) as a pure FRONT (facing the viewer) view: orthographic, camera level with the creature, no perspective. 6 legs, thick enough to read at phone size, spread wide with clear gaps between them. Centred, filling about 80% of a square image, plain flat neutral grey background, even light, no cast shadow, no text.",
+      "left": "Attached: the approved concept of Crawler. Draw exactly this creature again (same design, colours, proportions, leg count and accent: orange #ff9a3a glowing back sac) as a pure LEFT SIDE (its left side, head pointing to the left of the image) view: orthographic, camera level with the creature, no perspective. 6 legs, thick enough to read at phone size, spread wide with clear gaps between them. Centred, filling about 80% of a square image, plain flat neutral grey background, even light, no cast shadow, no text.",
+      "back": "Attached: the approved concept of Crawler. Draw exactly this creature again (same design, colours, proportions, leg count and accent: orange #ff9a3a glowing back sac) as a pure BACK view: orthographic, camera level with the creature, no perspective. 6 legs, thick enough to read at phone size, spread wide with clear gaps between them. Centred, filling about 80% of a square image, plain flat neutral grey background, even light, no cast shadow, no text.",
+      "right": "Attached: the approved concept of Crawler. Draw exactly this creature again (same design, colours, proportions, leg count and accent: orange #ff9a3a glowing back sac) as a pure RIGHT SIDE (its right side, head pointing to the right of the image) view: orthographic, camera level with the creature, no perspective. 6 legs, thick enough to read at phone size, spread wide with clear gaps between them. Centred, filling about 80% of a square image, plain flat neutral grey background, even light, no cast shadow, no text."
+    }
+  }
+}
