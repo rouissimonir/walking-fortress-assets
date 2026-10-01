@@ -1,0 +1,10 @@
+{
+  "kind": "enemy",
+  "size": "S",
+  "accent": "#ff9a3a",
+  "glow": 0,
+  "legs": "split",
+  "tool": "ChatGPT images (4 turnaround views) + Tripo H3.1 (multi-view image to 3D, HD Model, 2K PBR, remove lighting, triangle 15000)",
+  "licence": "ChatGPT paid plan, Tripo paid plan (tiers not named)",
+  "made": "2026-10-01"
+}
