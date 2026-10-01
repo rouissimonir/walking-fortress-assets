@@ -2,13 +2,13 @@
   "id": "crawler",
   "kind": "enemy",
   "folder": "ai/enemies/crawler",
-  "step": 4,
+  "step": 5,
   "steps": {
     "1": "done",
     "2": "skipped",
     "3": "skipped",
-    "4": "waiting: eye-check of the views (head directions, back view) + go",
-    "5": "todo",
+    "4": "done",
+    "5": "waiting: GLB from Tripo (best of 3 tries) + Tripo model version and plan",
     "6": "todo",
     "7": "todo",
     "8": "todo",
@@ -38,7 +38,9 @@
     "2026-10-01 brief given; Mo skipped ahead and uploaded four ChatGPT single views (no concept image sent): steps 2-3 skipped",
     "2026-10-01 views read as 1=RIGHT 2=LEFT 3=BACK 4=FRONT; prep-views PASS (front/back 95%, left/right 96%), no golden palette (assets repo has no golden set)",
     "2026-10-01 phone-size contrast PASS on left+front (dL* 34-43, fill 0.62)",
-    "design differs from the brief: armoured hermit-crab/pill-bug with painted orange plates, not a mite with a glowing back sac"
+    "design differs from the brief: armoured hermit-crab/pill-bug with painted orange plates, not a mite with a glowing back sac",
+    "2026-10-01 Mo said 'go' after the views sheet: head directions and BACK view accepted by eye; continuing without the golden palette (no golden set yet); ChatGPT plan still not told",
+    "2026-10-01 Tripo settings and the four views given"
   ],
-  "updated": "2026-10-01T10:23:23Z"
+  "updated": "2026-10-01T10:32:00Z"
 }
